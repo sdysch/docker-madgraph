@@ -36,5 +36,6 @@ RUN chmod 777 /home/MG/${MGDIR}/models
 
 # add mg to $PATH
 ENV PATH=/home/MG/${MGDIR}/bin/:$PATH
+
+# Add any user UFO models
 ENTRYPOINT ["/bin/bash", "-l", "-c"]
-CMD ["/bin/bash"]
